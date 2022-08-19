@@ -3,11 +3,18 @@ import "./home.scss"
 
 const Home = () => {
   return (
-    <div className="home">
+    <>
+      <div className="home">
+        <h1 className="title">
+          Dashboard 
+        </h1>
+      </div>
+
       <h1 className="title">
-        Dashboard
+        Dashboard 
       </h1>
-    </div>
+    </>
+
   )
 }
 
