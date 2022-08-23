@@ -89,7 +89,8 @@ const Sidebar = () => {
         </div>
 
         <div className="bottom">
-            color options
+            <div className="colorOptions"></div>
+            <div className="colorOptions"></div>
         </div>
 
     </div>
