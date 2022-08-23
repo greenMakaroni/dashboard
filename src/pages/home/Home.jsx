@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from '../../components/sidebar/Sidebar'
+import Navbar from '../../components/navbar/Navbar'
 import "./home.scss"
 
 const Home = () => {
@@ -8,7 +9,8 @@ const Home = () => {
       <div className="home">
         <Sidebar />
         <div className="homeContainer">
-          container
+          <Navbar />
+          home container
         </div>
       </div>
     </>
