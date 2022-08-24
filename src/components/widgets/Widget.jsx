@@ -60,7 +60,7 @@ const Widget = ({ type }) => {
         break;
     }
 
-    console.log(data)
+    
   return (
     <div className="widget">
 
